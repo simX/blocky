@@ -1,0 +1,31 @@
+[
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": ".*",
+            "resource-type": ["image", "svg-document", "media"]
+        }
+    },
+ 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        },
+        "trigger": {
+            "url-filter": "pbs.twimg.com",
+            "resource-type": ["image", "svg-document", "media"]
+        }
+    },
+ 
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": ".*",
+            "if-domain": ["*facebook.com", "*facebook.net", "*fbcdn.net"]
+        }
+    }
+]
