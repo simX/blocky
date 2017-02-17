@@ -166,10 +166,12 @@
 					5C7B23A61CFA168B00568623 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = Z4G3896E83;
+						LastSwiftMigration = 0820;
 					};
 					5C7B23BF1CFA169C00568623 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = Z4G3896E83;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -358,6 +360,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.EllipsisProductions.Blocky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -374,6 +377,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.EllipsisProductions.Blocky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -390,6 +394,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -406,6 +411,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
